@@ -1,0 +1,131 @@
+/* Estilos globales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contenedor principal */
+#root {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: #989797;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #989797;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.form-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(240, 8, 8, 0.1);
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #87cefa;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #9f9f9f;
+}
+
+/* Tarjetas */
+.card {
+  background-color: white; 
+  color: #333; 
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Etiquetas de escala */
+.etiqueta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.destacado {
+  background-color: #d0f0c0;
+  color: #2e7d32;
+}
+
+.buen-trabajo {
+  background-color: #cce5ff;
+  color: #0d47a1;
+}
+
+.con-mejora {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.deficiente {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Botones dentro de las tarjetas */
+.acciones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.editar {
+  background-color: #afcbe6;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.eliminar {
+  background-color: #d3d3d3;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
